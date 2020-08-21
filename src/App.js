@@ -1,7 +1,10 @@
 import React from 'react';
+import Board from './Board';
+
+
 
 function App() {
-  return "test123";
+  return <Board/>;
 }
 
 export default App;
