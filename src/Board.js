@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Cell from './Cell';
 
+// Generates 2D array of random numbers to mimic sudoku board.
 function initBoard() {
     const gameBoard = [];
 
@@ -16,7 +17,7 @@ function initBoard() {
 }
 
 export default function Board() {
-    const [gameBoard, ] = useState(initBoard());
+    const [gameBoard] = useState(initBoard());
 
     return (
         <table>
